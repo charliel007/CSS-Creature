@@ -1,0 +1,368 @@
+body {
+    background: url("./assets/background.jpg");
+    background-size: relative;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    position: relative;
+	margin: auto;
+}
+
+.main {
+    background-color: pink;
+    border: 3px solid pink;
+    height: 200px;
+    width: 190px;
+    border-radius: 200em;
+    position: relative;
+    left: 5em; 
+    top: 21em;
+    z-index: 2;
+    animation: main 7s ease-in-out 0s infinite alternate;
+}
+    
+.left-leg {
+    background-color: pink;
+    border: 3px solid pink;
+    z-index: -3;
+    height: 150px;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    left: 1.5em; 
+    top: 7em;
+}
+
+.right-leg {
+    background-color: pink;
+    border: 3px solid pink;
+    height: 150px;
+    width: 60px;
+    border-radius: 50%;
+    z-index: -3;
+    position: relative;
+    left: 6.5em; 
+    top: -2.5em;
+}
+
+.left-arm {
+    background-color: pink;
+    border: 3px solid pink;
+    height: 60px;
+    width: 150px;
+    border-radius: 50%;
+    z-index: -1;
+    position: relative;
+    left: -5em; 
+    top: -20em;
+    transform: rotate(40deg);
+}
+
+.right-arm {
+    background-color: pink;
+    border: 3px solid pink;
+    height: 60px;
+    width: 150px;
+    border-radius: 50%;
+    z-index: 0;
+    position: relative;
+    left: 7em; 
+    top: -25em;
+    transform: rotate(-40deg);
+}
+
+    .head {
+    position: relative;
+    border-left: 9em solid transparent;
+    border-right: 2.8em solid transparent;
+    border-bottom: 18em solid pink;
+    border-top: 0 solid transparent;
+    left: -.3em; 
+    top: -39em;
+}
+
+.Top-head {
+    background-color: pink;
+    border: 3px solid pink;
+    height: 40px;
+    width: 90px;
+    border-radius: 50%;
+    z-index: 0;
+    position: relative;
+    left: 6em; 
+    top: -55em;
+    transform: rotate(-40deg);
+}
+
+.wipe-out {
+    background: url("./assets/background.jpg");
+    height: 48px;
+    width: 69px;
+    z-index: 2;
+    position: relative;
+    left: 5.5em; 
+    top: -60.6em;
+    transform: rotate(-42deg);
+    overflow: hidden;
+        }
+
+.wipe-container {
+    background: inherit;
+    transform: rotate(42deg);
+    background-repeat: no-repeat;
+    height: 65.5em;
+    margin: -8.1em -26.8em;
+    
+}
+
+.left-eye {
+    background-color: white;
+    border: 3px solid black;
+    z-index: 2;
+    height: 50px;
+    width: 25px;
+    border-radius: 50%;
+    position: relative;
+    left: 4.5em; 
+    top: -57em;
+    transform: rotate(10deg);
+}
+
+.right-eye {
+    background-color: white;
+    border: 3px solid black;
+    z-index: 2;
+    height: 50px;
+    width: 25px;
+    border-radius: 50%;
+    position: relative;
+    left: 5.8em; 
+    top: -60.5em;
+    transform: rotate(10deg);
+}
+
+.pupil-left {
+    background-color: black;
+    border: 3px solid pink;
+    height: 13px;
+    width: 6px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    top: -62.6em;
+    left: 5em;
+    z-index: 2;
+    transform: rotate(5deg);
+}
+
+.pupil-right {
+    background-color: black;
+    border: 3px solid pink;
+    height: 13px;
+    width: 6px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    top: -63.5em;
+    left: 6.5em;
+    z-index: 2;
+    transform: rotate(5deg);
+}
+
+.mouth {
+    background-color: rgb(136, 76, 76);
+    border: 3px solid black;
+    height: 30px;
+    width: 55px;
+    border-radius: 50%;
+    z-index: 0;
+    position: relative;
+    left: 4.1em; 
+    top: -62em;
+    transform: rotate(0deg);
+}
+
+.tongue {
+    background-color:  rgb(203, 116, 116);
+    border-radius: 1.5em 1.5em 1em 1em;
+    border: 2px solid black;
+    height: 15px;
+    width: 20px;
+    z-index: 0;
+    position: relative;
+    left: 5.2em; 
+    top: -63.25em;
+    transform: rotate(0deg);
+}
+
+.eyebrow-R1 {
+    width: 11px;
+    height: 3px;
+    background-color: black;
+    left: 7em; 
+    top: -69.7em;
+    position: relative;
+    transform: rotate(15deg);
+}
+
+.eyebrow-L1 {
+    width: 11px;
+    height: 3px;
+    background-color: black;
+    left: 5.2em; 
+    top: -69.9em;
+    position: relative;
+    transform: rotate(-15deg);
+}
+
+.eyebrow-R2 {
+    width: 11px;
+    height: 3px;
+    background-color: black;
+    left: 7em; 
+    top: -69.7em;
+    position: relative;
+    transform: rotate(15deg);
+}
+
+.eyebrow-L2 {
+    width: 11px;
+    height: 3px;
+    background-color: black;
+    left: 5.2em; 
+    top: -70em;
+    position: relative;
+    transform: rotate(-15deg);
+}
+
+.shorts {
+    background: url(./assets/pants.jpg);
+    height: 136px;
+    width: 173px;
+    border-radius: 50%;
+    z-index: 0;
+    position: relative;
+    left: 0.68em; 
+    top: -59.4em;
+    transform: rotate(0);
+}
+
+.shorts2 {
+    background: url(./assets/pants.jpg);
+    height: 59px;
+    width: 70px;
+    border-radius: 18px;
+    left: 6.4em; 
+    top: -61.8em;
+    position: relative;
+    z-index: 0;
+    transform: rotate(-5deg);
+}
+
+.shorts3 {
+    background: url(./assets/pants.jpg);
+    height: 58px;
+    width: 70px;
+    border-radius: 15px;
+    left: 1.3em; 
+    top: -66em;
+    position: relative;
+    z-index: 0;
+    transform: rotate(5deg);
+}
+
+.belly {
+    background-color: pink;
+    border: 3px solid pink;
+    height: 50px;
+    width: 175px;
+    border-radius: 50%;
+    z-index: 0;
+    position: relative;
+    left: 0.5em; 
+    top: -72.9em;
+
+}
+
+.belly {
+    background-color: pink;
+    border: 3px solid pink;
+    height: 50px;
+    width: 173.5px;
+    border-radius: 50%;
+    z-index: 0;
+    position: relative;
+    left: 0.5em; 
+    top: -72.9em;
+
+}
+
+.belly2 {
+    background-color: pink;
+    border: 3px solid pink;
+    height: 108px;
+    width: 175px;
+    border-radius: 50%;
+    z-index: 0;
+    position: relative;
+    left: 0.56em; 
+    top: -79.5em;
+
+}
+
+.bellybutton {
+    background-color: pink;
+    border: 3px solid black;
+    height: 20px;
+    width: 25px;
+    border-radius: 50%;
+    z-index: 3;
+    position: relative;
+    left: 4.6em; 
+    top: -82em;
+}
+
+.bellybutton2 {
+    background-color: pink;
+    border: 3px solid pink;
+    height: 15px;
+    width: 35px;
+    border-radius: 50%;
+    z-index: 3;
+    position: relative;
+    left: 4.55em; 
+    top: -83.8em;
+    transform: rotate(0);
+}
+
+.bellybutton3 {
+    background-color: pink;
+    border: 3px solid black;
+    height: 15px;
+    width: 17px;
+    border-radius: 50%;
+    z-index: 3;
+    position: relative;
+    left: 4.85em; 
+    top: -85em;
+    transform: rotate(0);
+}
+
+.bellybutton4 {
+    background-color: pink;
+    border: 3px solid pink;
+    height: 9px;
+    width: 22px;
+    border-radius: 50%;
+    z-index: 3;
+    position: relative;
+    left: 5.2em; 
+    top: -86.5em;
+    transform: rotate(0);
+}
+
+@keyframes main {
+	from {left: -10px;}
+	to {left: 900px;}
+}
